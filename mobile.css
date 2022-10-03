@@ -106,5 +106,23 @@
         justify-content: flex-start;
         margin-bottom: 20px;
     }
+    /* .feed-bold{
+        display: none;
+    }
+    .testimonials-blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .testimonial-block{
+        width:560px;
+        height: 250px;
+    }
+    .testimonial-info{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    } */
    
 }
