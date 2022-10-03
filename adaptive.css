@@ -1,0 +1,55 @@
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+   .container{
+    max-width:900px; 
+   }
+
+   .watch{
+    background-image: url("img/GiantPanda.png");
+    height: 600px; /* static */
+    width:100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.circle-block{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    
+}
+.circle{
+    background-image: url("img/Ellipse6.png");
+    width:465px;
+    height: 465px;
+    margin-top:12px;
+    display: block;
+    
+}
+.circle-head{
+    font-weight: bold;
+    color:#fff;
+    font-size: 80px;
+    line-height: 95px;
+    margin-left: 120px;
+    text-transform: uppercase;
+}
+/* .feed{
+    width:100%;
+}  */
+.testimonial-none{
+    display: none;
+}
+
+.pet{
+    width: 266px;
+    height: 266px;
+}
+.pets{
+    gap:60px 10px;
+}
+.pet-img{
+    background-size: contain;
+}
+.slider-icon{
+    display: none;
+}
+}

@@ -1,0 +1,110 @@
+@media screen and (max-width: 760px) and (min-width: 300px) {
+    .container{
+     max-width:300px;
+     margin: 0 auto; 
+    }
+    .header-menu{
+        display: none;
+    }
+    .header-left a{
+        display: none;
+    }
+   
+    .watch{
+        background-image: url("img/GiantPanda.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width:100%;
+        height: 400px;
+
+    }
+    .circle{
+        background-image: url('img/5.png');
+        background-repeat: no-repeat;
+        margin: 10% 80%;
+        position: relative;
+        
+    
+        
+    }
+    .circle-head{
+        font-size: 28px;
+        line-height: 32px;
+        position: absolute; 
+        margin-left: 60px;
+    }
+   
+   .watch-btn{
+    display: none;
+   }
+    .backstage-picture, .backstage-picture__block, .pet-last{
+        display: none;
+    }
+    .flower-block{
+        background-image: url('img/flower_foto.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .slider-icon,.slider-icon2{
+        display: none;
+    }
+    .feed{
+        margin-top:100px;
+        padding-top:400px;
+    }
+    .pets-plant1{
+        background-size: 10%;
+        top:100.5%;
+    }
+    .flower-block{
+        background-image: url('img/flower_foto.png');
+       background-size: 12%;
+    }
+    .feed-arrow{
+        display: none;
+    }
+    .feed-manual__icons{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .feed{
+        height: auto;
+        background-image: linear-gradient(to right,#FED290, #FEBDAB, #FEBDAB );
+        text-align: center;
+        padding-top:10px;
+    
+    } 
+    .pick-feed-block{
+        background-color: white;
+        height: auto;
+        margin:0 auto;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .feed-text{
+        margin-right:25px;
+    }
+    .feed-bold{
+        display: none;
+    }
+    .testimonials-blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .testimonial-block{
+        width:560px;
+        height: 250px;
+    }
+    .testimonial-info{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+   
+}
