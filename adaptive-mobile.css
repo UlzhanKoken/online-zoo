@@ -1,0 +1,108 @@
+@media screen and (max-width: 900px) and (min-width: 760px) {
+    .container{
+     max-width:650px;
+     margin: 0 auto; 
+    }
+    .header-menu{
+        display: none;
+    }
+    .header-left a{
+        display: none;
+    }
+    .header-left2{
+        background-image: url('img/burger_menu.png');
+        background-repeat: no-repeat;
+        margin-top:35px;
+        width:18px
+    }
+    .watch{
+        background-image: url("img/GiantPanda.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width:100%;
+        height: 400px;
+    }
+    .circle{
+        background-image: url('img/Ellipse8.png');
+        background-repeat: no-repeat;
+        width:237px;
+        height: 237px;
+        
+    }
+    .circle-head{
+        font-size: 54px;
+        line-height: 54px;
+        
+    }
+    .circle-block__block{
+        display: flex;
+        flex-direction: row-reverse;
+        gap:50px;
+    }
+    .watch-btn{
+        display: flex;
+        align-items: flex-end;
+    }
+    .watch-btn a{
+        display: block;
+    }
+    .backstage-picture, .backstage-picture__block, .pet-last{
+        display: none;
+    }
+
+    .pet{
+        width:280px;
+        height: 280px;
+    }
+    .pet-img{
+        background-size: contain;
+    }
+    .pick-feed-block{
+        background-color: white;
+        height: 685px;
+        margin:0 auto;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+   
+    .feed-arrow{
+        display: none;
+    }
+    .testimonial-block{
+        width: 100%;
+        height: 200px;
+    }
+    .testimonials-blocks{
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonial-info{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+    .footer-blocks{
+        width:650px;
+        display: flex;
+        flex-direction: column;
+    }
+    form, .footer-subscribe, .footer-social-media{
+        display: none;
+    }
+    .iconss{
+        background-image: url('img/youtube3.png');
+        width: 25px;
+        height: 25px;
+        margin-bottom: 10px;
+        margin-right: 40px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    .testimonial-plant1{
+        top:80%;
+    }
+} 
